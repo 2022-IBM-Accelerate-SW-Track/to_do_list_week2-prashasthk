@@ -32,7 +32,6 @@ class Home extends Component {
       });
     }
   };
-
   deleteTodo = (id) => {
     const todos = this.state.todos.filter((todo) => {
       return todo.id !== id;
@@ -41,7 +40,6 @@ class Home extends Component {
       todos: todos,
     });
   };
-  
   render() {
     return (
       <div className="Home">
